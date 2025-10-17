@@ -7,10 +7,10 @@
     "email": "support@dincoder.dev",
     "url": "https://github.com/dincoder"
   },
-  "homepage": "https://github.com/dincoder/claude-plugin",
+  "homepage": "https://github.com/flight505/dincoder-plugin",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dincoder/claude-plugin.git"
+    "url": "https://github.com/flight505/dincoder-plugin.git"
   },
   "license": "MIT",
   "keywords": [
