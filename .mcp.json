@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dincoder": {
+      "command": "npx",
+      "args": ["-y", "mcp-dincoder@latest"]
+    }
+  }
+}
