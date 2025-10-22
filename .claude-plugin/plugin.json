@@ -8,10 +8,7 @@
     "url": "https://github.com/dincoder"
   },
   "homepage": "https://github.com/flight505/dincoder-plugin",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/flight505/dincoder-plugin.git"
-  },
+  "repository": "https://github.com/flight505/dincoder-plugin",
   "license": "MIT",
   "keywords": [
     "specification",
