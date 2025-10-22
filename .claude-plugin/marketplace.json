@@ -1,5 +1,8 @@
 {
-  "owner": "flight505",
+  "owner": {
+    "name": "flight505",
+    "url": "https://github.com/flight505"
+  },
   "name": "dincoder-marketplace",
   "description": "Official DinCoder plugin marketplace for spec-driven development workflows",
   "plugins": [
@@ -8,19 +11,19 @@
       "description": "Transform ideas into implementation through structured specifications, technical plans, and actionable tasks. Includes slash commands, specialized agents, and 26 MCP tools.",
       "version": "0.7.0",
       "repository": "https://github.com/flight505/dincoder-plugin",
-      "source": "git",
+      "source": "./",
       "commands": [
-        "spec",
-        "plan",
-        "tasks",
-        "progress",
-        "validate",
-        "next"
+        "./commands/spec.md",
+        "./commands/plan.md",
+        "./commands/tasks.md",
+        "./commands/progress.md",
+        "./commands/validate.md",
+        "./commands/next.md"
       ],
       "agents": [
-        "spec-writer",
-        "plan-architect",
-        "task-manager"
+        "./agents/spec-writer.md",
+        "./agents/plan-architect.md",
+        "./agents/task-manager.md"
       ]
     }
   ]
