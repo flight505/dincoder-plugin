@@ -1,0 +1,91 @@
+{
+  "name": "dincoder-marketplace",
+  "description": "Official DinCoder plugin marketplace for spec-driven development workflows",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "dincoder",
+      "displayName": "DinCoder - Spec-Driven Development",
+      "description": "Transform ideas into implementation through structured specifications, technical plans, and actionable tasks. Includes slash commands, specialized agents, and 26 MCP tools.",
+      "version": "0.5.0",
+      "author": {
+        "name": "DinCoder Team",
+        "email": "support@dincoder.dev",
+        "url": "https://github.com/flight505"
+      },
+      "homepage": "https://github.com/flight505/dincoder-plugin",
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/flight505/dincoder-plugin.git"
+      },
+      "license": "MIT",
+      "keywords": [
+        "specification",
+        "planning",
+        "task-management",
+        "spec-driven",
+        "workflow",
+        "mcp-server",
+        "github-spec-kit",
+        "sdd"
+      ],
+      "categories": [
+        "workflow",
+        "productivity",
+        "development"
+      ],
+      "commands": [
+        {
+          "name": "spec",
+          "description": "Create or refine project specification"
+        },
+        {
+          "name": "plan",
+          "description": "Generate technical implementation plan"
+        },
+        {
+          "name": "tasks",
+          "description": "Break down into actionable tasks"
+        },
+        {
+          "name": "progress",
+          "description": "View progress report with analytics"
+        },
+        {
+          "name": "validate",
+          "description": "Check specification quality"
+        },
+        {
+          "name": "next",
+          "description": "Show next actionable tasks"
+        }
+      ],
+      "agents": [
+        {
+          "name": "spec-writer",
+          "description": "Expert at creating validated specifications"
+        },
+        {
+          "name": "plan-architect",
+          "description": "Expert at designing technical implementation plans"
+        },
+        {
+          "name": "task-manager",
+          "description": "Expert at managing tasks and tracking progress"
+        }
+      ],
+      "mcpServers": {
+        "dincoder": {
+          "command": "npx",
+          "args": ["-y", "mcp-dincoder@latest"]
+        }
+      },
+      "requirements": {
+        "claudeCode": ">=2.0.13",
+        "node": ">=18",
+        "npm": "*"
+      },
+      "installPath": "."
+    }
+  ]
+}

@@ -12,12 +12,63 @@ Transform your development workflow with spec-driven methodology. This plugin in
 
 ## Installation
 
+### Prerequisites
+
+Before installing, ensure you have:
+- ✅ **Claude Code** version 2.0.13 or higher
+- ✅ **Node.js** version 18 or higher
+- ✅ **npm** installed (for MCP server)
+
+**Check your versions:**
 ```bash
-# In Claude Code
-/plugin install dincoder/claude-plugin
+claude --version  # Should show >= 2.0.13
+node --version    # Should show >= 18
+npm --version
 ```
 
-After installation, restart Claude Code to activate the plugin.
+### Install from Marketplace
+
+**Step 1: Add the DinCoder marketplace**
+```bash
+# In Claude Code
+/plugin marketplace add flight505/dincoder-plugin
+```
+
+**Step 2: Install the plugin**
+```bash
+/plugin install dincoder
+```
+
+**Step 3: Restart Claude Code**
+- **macOS/Linux:** Quit (`Cmd+Q`) and reopen, or press `Cmd+Shift+P` → "Developer: Reload Window"
+- **Windows:** Quit (`Alt+F4`) and reopen, or press `Ctrl+Shift+P` → "Developer: Reload Window"
+
+### Verify Installation
+
+After restarting, verify the plugin is active:
+
+**1. Check slash commands:**
+```bash
+# Type / in Claude Code
+# You should see: /spec, /plan, /tasks, /progress, /validate, /next
+```
+
+**2. Check specialized agents:**
+```bash
+# Type @ in Claude Code
+# You should see: @spec-writer, @plan-architect, @task-manager
+```
+
+**3. Check MCP server:**
+- Open Claude Code Settings → Extensions → MCP Servers
+- Verify "dincoder" server is listed and active
+
+**Troubleshooting:**
+If commands don't appear:
+- Completely quit and restart Claude Code (not just reload window)
+- Check Developer Console for errors: `Help` → `Toggle Developer Tools`
+- Verify npm and Node.js are correctly installed
+- Try reinstalling: `/plugin uninstall dincoder` then `/plugin install dincoder`
 
 ## Quick Start
 
