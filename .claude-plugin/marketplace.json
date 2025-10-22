@@ -7,7 +7,7 @@
       "name": "dincoder",
       "displayName": "DinCoder - Spec-Driven Development",
       "description": "Transform ideas into implementation through structured specifications, technical plans, and actionable tasks. Includes slash commands, specialized agents, and 26 MCP tools.",
-      "version": "0.5.0",
+      "version": "0.7.0",
       "author": {
         "name": "DinCoder Team",
         "email": "support@dincoder.dev",

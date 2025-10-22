@@ -1,7 +1,7 @@
 {
   "name": "dincoder",
   "description": "Spec-driven development workflow with DinCoder MCP server. Transform ideas into implementation through structured specifications, technical plans, and actionable tasks.",
-  "version": "0.5.0",
+  "version": "0.7.0",
   "author": {
     "name": "DinCoder Team",
     "email": "support@dincoder.dev",
